@@ -20,8 +20,7 @@ export const Section = styled.div`
 
 export const TopContent = styled.div`
     grid-column-start: 1;
-    grid-column-end: 3;
-    
+    grid-column-end: 3;    
 `;
 
 export const Content = styled.div`        
@@ -44,8 +43,7 @@ export const SubTitle = styled.div`
     font-size: 14px;
     text-align: justify;
     color: #676767;
-    line-height: 20px;
-   
+    line-height: 20px;   
 `;
 
 export const Comments = styled.div`
