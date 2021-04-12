@@ -11,7 +11,7 @@ const Navbar = () => {
             <Nav>
                 <LeftItem>
                     <NavLink to="/">
-                        <img src="./images/logo.png" alt="" style={{ height: 60 }} />
+                        <img src="./images/logo.jpg" alt="" style={{width: 150}} />
                     </NavLink>
 
                     <NavLink style={{ marginLeft: 20 }} to="/about">

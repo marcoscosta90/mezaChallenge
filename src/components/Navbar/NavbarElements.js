@@ -2,10 +2,9 @@ import styled from 'styled-components'
 import { NavLink as Link} from 'react-router-dom';
 
 export const Nav = styled.nav`
-    background: #00008b;
+    background: #103370;
     height: 40px;
-    display: flex;
-    
+    display: flex;    
     justify-content: space-between;
     padding: 0.5rem calc((100vw - 1000px) / 2);
     z-index: 10;
@@ -19,14 +18,11 @@ export const NavLink = styled(Link)`
     padding: 0 0.5rem;
     height: 100%;
     cursor: pointer;
-
-    &.active {
-        color: #15cdfc;
-    }
 `;
 
 export const LeftItem = styled.div`
     display: flex;  
+    
 `
 
 export const CenterItem = styled.div`
