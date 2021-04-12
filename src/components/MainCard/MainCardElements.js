@@ -3,8 +3,7 @@ import styled from 'styled-components'
 export const Main = styled.section`
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    background: #ebebeb;
-    height: 100vh;
+    background: #ebebeb;   
 `;
 
 export const LeftContent = styled.div`
@@ -50,7 +49,7 @@ export const SubTitle = styled.div`
 `;
 
 export const Comments = styled.div`
-    font-size: 14px;    
+    font-size: 13px;    
     max-width: 98%;    
     color: #676767;
     line-height: 20px;
