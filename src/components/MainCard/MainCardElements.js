@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Main = styled.section`
     display: grid;
-    grid-template-columns: 18% 65% 18%;
+    grid-template-columns: 20% 60% 20%;
     background: #ebebeb;
     height: 100vh;
 `;
@@ -35,7 +35,7 @@ export const Content = styled.div`
 export const Title = styled.div`
     font-size: 20px;
     text-transform: uppercase;
-    color: #ed9696;
+    color: #CD8D84;
     font-weight: bold;
     margin-bottom: 15px;
     margin-top: 20px;
@@ -45,21 +45,24 @@ export const SubTitle = styled.div`
     font-size: 14px;
     text-align: justify;
     color: #676767;
+    line-height: 20px;
+   
 `;
 
 export const Comments = styled.div`
     font-size: 14px;    
     max-width: 98%;    
     color: #676767;
+    line-height: 20px;
 `;
 
 export const SmallCard = styled.div`
     background: #fff;
     display: flex;
     flex-direction: column;   
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);    
-    width: 550px;
-    height: 250px;    
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);    
+    width: 100%;
+    height: 90%;    
     padding-left: 14px;
     margin-bottom: 20px;
     padding-bottom: 20px;   
@@ -68,7 +71,7 @@ export const SmallCard = styled.div`
 export const LongerCard = styled.div`
     background: #fff;
     margin-top: 10px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);  
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);  
     grid-column-start: 1; 
     grid-column-end: 3;   
     padding-left: 14px;
@@ -76,20 +79,35 @@ export const LongerCard = styled.div`
 `;
 
 export const ImageCard = styled.div`
-    background: url('./images/womanDryer.jpg');
-    background-size: cover; 
-    width: 100%;   
+    background: url('./images/womanDryer.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;    
+    width: 100%;
     grid-row-start: 2;
     grid-row-end: 4;
-    grid-column-start: 2;    
+    grid-column-start: 2;
+    margin-left: 20px;     
 `;
+
+export const ImageTitle = styled.div`
+    font-size: 15px;
+    display: flex;
+    align-items: center;    
+    height: 40px;    
+    padding-left: 14px;
+    text-transform: uppercase;
+    background-color: #CD8D84;
+    color: #fff;
+`;
+
+
 export const EndLabel = styled.div`
     margin-top: 20px;
     display: flex;
     width: 100%;    
     justify-content: center;
     align-items:center;
-    background-color: #ed9696;
+    background-color: #CD8D84;
     color: #fff;
     height: 50px;
     border-radius: 1px;  

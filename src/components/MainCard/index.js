@@ -1,5 +1,5 @@
 import React from 'react';
-import { LeftContent, RightContent, Content, Title, Main, SubTitle, TopContent, SmallCard, ImageCard, Comments, LongerCard, EndLabel } from './MainCardElements';
+import { LeftContent, RightContent, Content, Title, Main, SubTitle, TopContent, SmallCard, ImageCard, Comments, LongerCard, EndLabel, ImageTitle } from './MainCardElements';
 
 
 const MainCard = () => {
@@ -9,7 +9,7 @@ const MainCard = () => {
                 <LeftContent />
 
                 <Content>
-                    <TopContent >
+                    <TopContent style={{marginTop: 10}}>
                         <Title>
                             Shampoos e Dermocosméticos
                         </Title>
@@ -26,6 +26,7 @@ const MainCard = () => {
                         </Comments>
                     </SmallCard>
                     <ImageCard >
+                        <ImageTitle>Conheça nossos <b style={{marginLeft: 5}}> shampoos </b> </ImageTitle>
                     </ImageCard>
                     <SmallCard>
                         <Title>

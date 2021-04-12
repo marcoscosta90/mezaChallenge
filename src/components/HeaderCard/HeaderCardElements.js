@@ -13,7 +13,7 @@ export const Image = styled.div`
 `
 
 export const RightContent = styled.div`
-    background: #ed9696;
+    background: #DE8E85;
     display: flex;
     flex-direction: column;    
     justify-content: center;
