@@ -1,17 +1,17 @@
 <h1 align="center">
-    <img alt="mainpage" src="../images/logo.png" />
+    <img alt="mainpage" src="./public/images/mainpage.png" />
     <br>
-    Challenge Meza 
+    Challenge Meza
 </h1>
 
 <h4 align="center">
-  Um teste de uma página front usando a tecnologia React para o desenvolvimento
+  A front-end page test developed with React
 </h4>
 
 
-Esse projeto foi desenvolvido por Marcos Costa com as seguintes tecnologias:
+#####This project has been developed by Marcos Costa with the following technologies
 
--  [REACT][reactjs]
+  ## 🚀 Tecnologias
 
 
 ## Instalação
