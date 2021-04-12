@@ -4,10 +4,7 @@
     Challenge Meza
 </h1>
 
-
-
-
-#####This project has been developed by Marcos Costa with the following technologies
+This project has been developed by Marcos Costa with the following technologies
 
   ## 🚀 Technologies
   
