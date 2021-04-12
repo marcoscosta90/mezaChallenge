@@ -10,8 +10,9 @@
 #####This project has been developed by Marcos Costa with the following technologies
 
   ## 🚀 Technologies
-    - [React](https://pt-br.reactjs.org/)
-
+  
+- React
+   
 ## Instalação
 
 Clone this project with:
