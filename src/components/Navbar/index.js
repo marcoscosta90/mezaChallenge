@@ -11,14 +11,14 @@ const Navbar = () => {
             <Nav>
                 <LeftItem>
                     <NavLink to="/">
-                        <img src="./images/logo.jpg" alt="" style={{width: 150}} />
+                        <img src="./images/logo.jpg" alt="" style={{width: 130}} />
                     </NavLink>
 
                     <NavLink style={{ marginLeft: 20 }} to="/about">
                         <GiHamburgerMenu style={{ marginRight: -10 }} />
                     </NavLink>
                     <NavLink to="/about">
-                        Categorias
+                        CATEGORIAS
                 </NavLink>
 
                 </LeftItem>
