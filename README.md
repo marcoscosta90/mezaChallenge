@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="mainpage" src="../images/mainpage.png" />
+    <img alt="mainpage" src="../images/logo.png" />
     <br>
     Challenge Meza 
 </h1>
