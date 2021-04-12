@@ -37,6 +37,7 @@ export const Subtitle = styled.div`
 export const Comment = styled.div`
     margin-top: 3px;
     font-size: 14px;
+    line-height: 20px;
     color: #fff;
     font-weight: bold;
     max-width: 500px;

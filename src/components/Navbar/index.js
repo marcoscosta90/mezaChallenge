@@ -23,8 +23,8 @@ const Navbar = () => {
 
                 </LeftItem>
                 <CenterItem to="/about" >
-                    <input type="text" placeholder="O que você procura?" name="search" style={{fontSize: 16, display: 'flex', width: 600, paddingLeft: '8px', borderRadius: 2, border: 'none', height: 40, marginTop: 2}} />
-                    <button style={{ position: 'absolute', right: 0, top: 10, border: 'none',  background: 'transparent' }}>
+                    <input type="text" placeholder="O que você procura?" name="search" style={{ fontSize: 16, display: 'flex', width: 600, paddingLeft: '8px', borderRadius: 2, border: 'none', height: 40, marginTop: 2 }} />
+                    <button style={{ position: 'absolute', right: 0, top: 10, border: 'none', background: 'transparent' }}>
                         <AiOutlineSearch style={{ width: 24, height: 24, color: '#aaa9a9' }} />
                     </button>
                 </CenterItem>
@@ -38,7 +38,7 @@ const Navbar = () => {
                     </NavLink>
                     </SignIn>
                     <NavLink to="/about" >
-                        <FaShoppingBag style={{color: '#00bfdf'}}/>
+                        <FaShoppingBag style={{ color: '#00bfdf' }} />
                     </NavLink>
                 </RightItem>
             </Nav>
