@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavLink, LeftItem, CenterItem, RightItem, SignIn } from './NavbarElements';
+import { Nav, NavLink, LeftItem, CenterItem, RightItem, SignIn, Logo } from './NavbarElements';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdAccountCircle } from "react-icons/md";
 import { FaShoppingBag } from 'react-icons/fa';
@@ -11,7 +11,7 @@ const Navbar = () => {
             <Nav>
                 <LeftItem>
                     <NavLink to="/">
-                        <img src="./images/logo.jpg" alt="" style={{width: 130}} />
+                        <Logo />
                     </NavLink>
 
                     <NavLink style={{ marginLeft: 20 }} to="/about">
@@ -23,22 +23,22 @@ const Navbar = () => {
 
                 </LeftItem>
                 <CenterItem to="/about" >
-                    <input type="text" placeholder="O que você procura..." name="search" style={{ width: 400, padding: '1rem' }} />
-                    <button style={{ position: 'absolute', right: 0, top: 6, border: 'none', background: 'transparent' }}>
-                        <AiOutlineSearch style={{ width: 22, height: 22 }} />
+                    <input type="text" placeholder="O que você procura?" name="search" style={{fontSize: 16, display: 'flex', width: 600, paddingLeft: '8px', borderRadius: 2, border: 'none', height: 40, marginTop: 2}} />
+                    <button style={{ position: 'absolute', right: 0, top: 10, border: 'none',  background: 'transparent' }}>
+                        <AiOutlineSearch style={{ width: 24, height: 24, color: '#aaa9a9' }} />
                     </button>
                 </CenterItem>
                 <RightItem>
                     <SignIn>
                         <NavLink to="/about" >
-                            <MdAccountCircle style={{ width: 20, height: 20, marginRight: -10 }} />
+                            <MdAccountCircle style={{ width: 24, height: 24, marginRight: -10 }} />
                         </NavLink>
                         <NavLink to="/about" >
                             Entrar
                     </NavLink>
                     </SignIn>
                     <NavLink to="/about" >
-                        <FaShoppingBag />
+                        <FaShoppingBag style={{color: '#00bfdf'}}/>
                     </NavLink>
                 </RightItem>
             </Nav>
