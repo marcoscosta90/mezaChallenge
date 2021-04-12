@@ -1,6 +1,6 @@
 import React from 'react';
 import { LeftContent, RightContent, Content, Title, Main, SubTitle, TopContent, SmallCard, ImageCard, Comments, LongerCard, EndLabel, ImageTitle } from './MainCardElements';
-
+import { BiRightArrow } from 'react-icons/bi'
 
 const MainCard = () => {
     return (
@@ -9,7 +9,7 @@ const MainCard = () => {
                 <LeftContent />
 
                 <Content>
-                    <TopContent style={{marginTop: 10}}>
+                    <TopContent style={{ marginTop: 10 }}>
                         <Title>
                             Shampoos e Dermocosméticos
                         </Title>
@@ -26,7 +26,9 @@ const MainCard = () => {
                         </Comments>
                     </SmallCard>
                     <ImageCard >
-                        <ImageTitle>Conheça nossos <b style={{marginLeft: 5}}> shampoos </b> </ImageTitle>
+                        <ImageTitle>Conheça nossos <b style={{ marginLeft: 5 }}> shampoos </b>  
+                        <BiRightArrow style={{marginLeft: 5}}/>                         
+                        </ImageTitle>                        
                     </ImageCard>
                     <SmallCard>
                         <Title>
@@ -45,9 +47,9 @@ const MainCard = () => {
                         </Comments>
                     </LongerCard>
                     <EndLabel>
-                        Para mais informações sobre o combate à caspa, acesse o <a style={{color: '#fff', marginLeft: 5}} href="/"> Dermaclub </a>
+                        Para mais informações sobre o combate à caspa, acesse o <a style={{ color: '#fff', marginLeft: 5 }} href="/"> Dermaclub </a>
                     </EndLabel>
-                  
+
                 </Content>
                 <RightContent />
             </Main>
